@@ -14,8 +14,44 @@
     <title>Base Apparel coming soon page</title>
   </head>
   <body>
-    We're coming soon Hello fellow shoppers! We're currently building our new
-    fashion store. Add your email below to stay up-to-date with announcements
-    and our launch deals. Email Address
+    <header>
+      <img src="./images/logo.svg" alt="logo" />
+    </header>
+
+    <div class="hero-mobile">
+      <img src="./images/hero-mobile.jpg" alt="lady" />
+    </div>
+
+    <main>
+      <div class="logo-desktop">
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+
+      <div class="content">
+        <h1><span>We're</span> coming soon</h1>
+        <p>
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+      </div>
+
+      <div class="form">
+        <form id="form">
+          <input type="text" id="email" placeholder="Email Address" />
+          <span id="error"
+            ><img id="error" src="./images/icon-error.svg" alt="icon-error"
+          /></span>
+          <button type="submit">
+            <img src="./images/icon-arrow.svg" alt="arrow-right" />
+          </button>
+        </form>
+        <span id="message" class="message">Please provide a valid email</span>
+      </div>
+    </main>
+
+    <div class="hero-desktop">
+      <img src="./images/hero-desktop.jpg" alt="lady" />
+    </div>
   </body>
 </html>
